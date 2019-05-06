@@ -4,9 +4,7 @@
     android:versionCode="5"
     android:versionName="1.1.0">
       
-    <uses-sdk
-    	android:minSdkVersion="8" 
-    	android:targetSdkVersion="19" />
+    <uses-sdk android:targetSdkVersion="19" />
     	
     <supports-screens
         android:resizeable="true"
@@ -62,25 +60,15 @@
 		<activity 
 		    android:name="com.google.android.gms.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
-
-
-
+		<meta-data 
+		    android:name="com.crashlytics.ApiKey" 
+		    android:value="1c51e83d4d0dc7bea62a746e20c2ad2c96734a17"/>
 		<meta-data
-			android:name="io.fabric.ApiKey"
-			android:value="14c1fc6ef98ea77ff1957017a8c6f1dc0052c0a5"
-			/>
+		    android:name="LOCALYTICS_APP_KEY" 
+		    android:value="4292f38c51caaa28612210a-51a48154-4b7f-11e0-c508-007af5bd88a0"/>
 		<meta-data 
 		    android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version"/>
 	</application> 	
         
-</manifest>
-
-	<!---
-    <meta-data
-    android:name="com.crashlytics.ApiKey"
-    android:value="1c51e83d4d0dc7bea62a746e20c2ad2c96734a17"/>
-    <meta-data
-    android:name="LOCALYTICS_APP_KEY"
-    android:value="4292f38c51caaa28612210a-51a48154-4b7f-11e0-c508-007af5bd88a0"/>
-    -->
+</manifest> 

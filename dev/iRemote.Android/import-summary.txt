@@ -1,0 +1,322 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\encodings.xml
+* .idea\workspace.xml
+* app\
+* app\build.gradle
+* app\libs\
+* app\libs\crashlytics.jar
+* app\src\
+* app\src\main\
+* app\src\main\AndroidManifest.xml
+* app\src\main\assets\
+* app\src\main\assets\About.htm
+* app\src\main\assets\Help.htm
+* app\src\main\assets\Help001.jpg
+* app\src\main\assets\Help002.jpg
+* app\src\main\assets\Help003.jpg
+* app\src\main\assets\Help005.jpg
+* app\src\main\assets\Help007.jpg
+* app\src\main\assets\Help008.jpg
+* app\src\main\assets\Help009.jpg
+* app\src\main\assets\Help010.jpg
+* app\src\main\assets\Help011.jpg
+* app\src\main\assets\Help012.jpg
+* app\src\main\assets\LIBS.txt
+* app\src\main\assets\License.htm
+* app\src\main\java\
+* app\src\main\java\com\
+* app\src\main\java\com\Localytics\
+* app\src\main\java\com\Localytics\android\
+* app\src\main\java\com\Localytics\android\Constants.java
+* app\src\main\java\com\Localytics\android\DatapointHelper.java
+* app\src\main\java\com\Localytics\android\JsonObjects.java
+* app\src\main\java\com\Localytics\android\LocalyticsProvider.java
+* app\src\main\java\com\Localytics\android\LocalyticsSession.java
+* app\src\main\java\com\Localytics\android\ReferralReceiver.java
+* app\src\main\java\com\Localytics\android\ReflectionUtils.java
+* app\src\main\java\com\scientificsoft\
+* app\src\main\java\com\scientificsoft\iremote\
+* app\src\main\java\com\scientificsoft\iremote\android\
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\AppVersions.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\iRemoteApp.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\tools\
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\tools\ApiFeatures.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\tools\ContextHolder.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\tools\ForegroundExecutor.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\tools\activitymanager\
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\tools\activitymanager\ActivityManager.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\tools\activitymanager\IAppController.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\tools\activitymanager\ManagedActivity.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\tools\activitymanager\ManagedTabActivity.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\control\
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\control\ControlActivity.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\control\HotsTab.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\control\ISettingsListener.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\control\SettingsTab.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\control\ShellTab.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\control\TouchTab.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\controls\
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\controls\CompoundButton.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\controls\ControlAreaGL.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\controls\DocActivity.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\controls\HotButton.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\controls\IScreenshotHost.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\controls\MouseButton.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\controls\NavigationBar.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\controls\ScaleGestureDetector.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\controls\SimpleListener3.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\controls\SimpleListener5.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\controls\TabBarButton.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\controls\opengl\
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\controls\opengl\Texture.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\home\
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\home\AboutActivity.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\home\HelpActivity.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\home\HomeActivity.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\home\HostsAdapter.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\home\HostsDialog.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\home\IHostsListener.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\home\ILoginListener.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\home\IPasswordListener.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\home\LicenseActivity.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\home\LoginDialog.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\home\PasswordDialog.java
+* app\src\main\java\com\scientificsoft\iremote\android\iremote\ui\home\SplashActivity.java
+* app\src\main\java\com\scientificsoft\iremote\platform\
+* app\src\main\java\com\scientificsoft\iremote\platform\encryption\
+* app\src\main\java\com\scientificsoft\iremote\platform\encryption\MD5.java
+* app\src\main\java\com\scientificsoft\iremote\platform\net\
+* app\src\main\java\com\scientificsoft\iremote\platform\net\Socket.java
+* app\src\main\java\com\scientificsoft\iremote\platform\system\
+* app\src\main\java\com\scientificsoft\iremote\platform\system\DateTimeUtils.java
+* app\src\main\java\com\scientificsoft\iremote\platform\system\Device.java
+* app\src\main\java\com\scientificsoft\iremote\platform\system\Device4.java
+* app\src\main\java\com\scientificsoft\iremote\platform\tools\
+* app\src\main\java\com\scientificsoft\iremote\platform\tools\Buffer.java
+* app\src\main\java\com\scientificsoft\iremote\platform\tools\CoreGuid.java
+* app\src\main\java\com\scientificsoft\iremote\platform\tools\Enumeration.java
+* app\src\main\java\com\scientificsoft\iremote\platform\tools\File.java
+* app\src\main\java\com\scientificsoft\iremote\platform\tools\Map.java
+* app\src\main\java\com\scientificsoft\iremote\platform\tools\Vector.java
+* app\src\main\java\com\scientificsoft\iremote\server\
+* app\src\main\java\com\scientificsoft\iremote\server\DHolder.java
+* app\src\main\java\com\scientificsoft\iremote\server\DLocal.java
+* app\src\main\java\com\scientificsoft\iremote\server\DSession.java
+* app\src\main\java\com\scientificsoft\iremote\server\DUIHost.java
+* app\src\main\java\com\scientificsoft\iremote\server\Features.java
+* app\src\main\java\com\scientificsoft\iremote\server\Holder.java
+* app\src\main\java\com\scientificsoft\iremote\server\HostStub.java
+* app\src\main\java\com\scientificsoft\iremote\server\IExecutor.java
+* app\src\main\java\com\scientificsoft\iremote\server\Local.java
+* app\src\main\java\com\scientificsoft\iremote\server\LocalStub.java
+* app\src\main\java\com\scientificsoft\iremote\server\Messenger.java
+* app\src\main\java\com\scientificsoft\iremote\server\Runtime.java
+* app\src\main\java\com\scientificsoft\iremote\server\ServerContext.java
+* app\src\main\java\com\scientificsoft\iremote\server\Session.java
+* app\src\main\java\com\scientificsoft\iremote\server\SessionStub.java
+* app\src\main\java\com\scientificsoft\iremote\server\Versions.java
+* app\src\main\java\com\scientificsoft\iremote\server\config\
+* app\src\main\java\com\scientificsoft\iremote\server\config\Config.java
+* app\src\main\java\com\scientificsoft\iremote\server\handlers\
+* app\src\main\java\com\scientificsoft\iremote\server\handlers\AuthResponse2Handler.java
+* app\src\main\java\com\scientificsoft\iremote\server\handlers\AuthResponseHandler.java
+* app\src\main\java\com\scientificsoft\iremote\server\handlers\ErrorHandler.java
+* app\src\main\java\com\scientificsoft\iremote\server\handlers\PasswordRequestHandler.java
+* app\src\main\java\com\scientificsoft\iremote\server\handlers\ScreenshotHandler.java
+* app\src\main\java\com\scientificsoft\iremote\server\handlers\ShellResponseHandler.java
+* app\src\main\java\com\scientificsoft\iremote\server\handlers\VolumeMessageHandler.java
+* app\src\main\java\com\scientificsoft\iremote\server\handlers\WrongPasswordHandler.java
+* app\src\main\java\com\scientificsoft\iremote\server\handlers\ZoomParamsHandler.java
+* app\src\main\java\com\scientificsoft\iremote\server\hosts\
+* app\src\main\java\com\scientificsoft\iremote\server\hosts\Host.java
+* app\src\main\java\com\scientificsoft\iremote\server\hosts\HostsManager.java
+* app\src\main\java\com\scientificsoft\iremote\server\hosts\NetInterface.java
+* app\src\main\java\com\scientificsoft\iremote\server\messages\
+* app\src\main\java\com\scientificsoft\iremote\server\messages\AuthMessage.java
+* app\src\main\java\com\scientificsoft\iremote\server\messages\AuthResponse.java
+* app\src\main\java\com\scientificsoft\iremote\server\messages\AuthResponse2.java
+* app\src\main\java\com\scientificsoft\iremote\server\messages\CookieMessage.java
+* app\src\main\java\com\scientificsoft\iremote\server\messages\KeyboardMessage.java
+* app\src\main\java\com\scientificsoft\iremote\server\messages\LimitOfDevicesReached.java
+* app\src\main\java\com\scientificsoft\iremote\server\messages\Messages.java
+* app\src\main\java\com\scientificsoft\iremote\server\messages\MoveMessage.java
+* app\src\main\java\com\scientificsoft\iremote\server\messages\PasswordMessage.java
+* app\src\main\java\com\scientificsoft\iremote\server\messages\PasswordRequest.java
+* app\src\main\java\com\scientificsoft\iremote\server\messages\ScreenshotMessage.java
+* app\src\main\java\com\scientificsoft\iremote\server\messages\ScrollMessage.java
+* app\src\main\java\com\scientificsoft\iremote\server\messages\ShellRequest.java
+* app\src\main\java\com\scientificsoft\iremote\server\messages\ShellResponse.java
+* app\src\main\java\com\scientificsoft\iremote\server\messages\VolumeMessage.java
+* app\src\main\java\com\scientificsoft\iremote\server\messages\WrongDeviceIp.java
+* app\src\main\java\com\scientificsoft\iremote\server\messages\WrongPassword.java
+* app\src\main\java\com\scientificsoft\iremote\server\messages\ZoomLevelMessage.java
+* app\src\main\java\com\scientificsoft\iremote\server\messages\ZoomParamsMessage.java
+* app\src\main\java\com\scientificsoft\iremote\server\protocol\
+* app\src\main\java\com\scientificsoft\iremote\server\protocol\EndOfStreamException.java
+* app\src\main\java\com\scientificsoft\iremote\server\protocol\Guid.java
+* app\src\main\java\com\scientificsoft\iremote\server\protocol\IMessage.java
+* app\src\main\java\com\scientificsoft\iremote\server\protocol\IMessageHandler.java
+* app\src\main\java\com\scientificsoft\iremote\server\protocol\MessageBuffer.java
+* app\src\main\java\com\scientificsoft\iremote\server\protocol\MessageHandlers.java
+* app\src\main\java\com\scientificsoft\iremote\server\protocol\MessageHeader.java
+* app\src\main\java\com\scientificsoft\iremote\server\protocol\MessageImpl.java
+* app\src\main\java\com\scientificsoft\iremote\server\protocol\MessagesFactory.java
+* app\src\main\java\com\scientificsoft\iremote\server\protocol\Parser.java
+* app\src\main\java\com\scientificsoft\iremote\server\protocol\Property.java
+* app\src\main\java\com\scientificsoft\iremote\server\protocol\ProtocolException.java
+* app\src\main\java\com\scientificsoft\iremote\server\tools\
+* app\src\main\java\com\scientificsoft\iremote\server\tools\KeyCodes.java
+* app\src\main\java\com\scientificsoft\iremote\server\tools\ReadWriteLock.java
+* app\src\main\java\com\scientificsoft\iremote\server\tools\Strings.java
+* app\src\main\java\com\scientificsoft\iremote\server\tools\TimeoutException.java
+* app\src\main\java\com\scientificsoft\iremote\server\tools\Timer.java
+* app\src\main\res\
+* app\src\main\res\drawable-hdpi\
+* app\src\main\res\drawable-hdpi\mouse_cursor.png
+* app\src\main\res\drawable-xhdpi\
+* app\src\main\res\drawable-xhdpi\mouse_cursor.png
+* app\src\main\res\drawable\
+* app\src\main\res\drawable\button_home_normal.9.png
+* app\src\main\res\drawable\button_home_pressed.9.png
+* app\src\main\res\drawable\button_home_selector.xml
+* app\src\main\res\drawable\button_normal.9.png
+* app\src\main\res\drawable\button_normal_selector.xml
+* app\src\main\res\drawable\button_pressed.9.png
+* app\src\main\res\drawable\button_radio.xml
+* app\src\main\res\drawable\edit_field.9.png
+* app\src\main\res\drawable\home_connect.png
+* app\src\main\res\drawable\home_help.png
+* app\src\main\res\drawable\home_hosts.png
+* app\src\main\res\drawable\home_info.png
+* app\src\main\res\drawable\home_password.png
+* app\src\main\res\drawable\icon.png
+* app\src\main\res\drawable\menu_accept.png
+* app\src\main\res\drawable\menu_back.png
+* app\src\main\res\drawable\menu_disconnect.png
+* app\src\main\res\drawable\menu_exit.png
+* app\src\main\res\drawable\menu_help.png
+* app\src\main\res\drawable\menu_quit.png
+* app\src\main\res\drawable\mouse_cursor.png
+* app\src\main\res\drawable\navbar.9.png
+* app\src\main\res\drawable\no_hosts_back.png
+* app\src\main\res\drawable\separator.xml
+* app\src\main\res\drawable\shell_background.png
+* app\src\main\res\drawable\splash.png
+* app\src\main\res\drawable\tab_hots.png
+* app\src\main\res\drawable\tab_settings.png
+* app\src\main\res\drawable\tab_shell.png
+* app\src\main\res\drawable\tab_touchpad.png
+* app\src\main\res\drawable\tabbar_background.png
+* app\src\main\res\drawable\tabbar_selection.png
+* app\src\main\res\drawable\tabbaritem_selected.xml
+* app\src\main\res\drawable\tabbaritem_unselected.xml
+* app\src\main\res\drawable\toolbar.9.png
+* app\src\main\res\drawable\touchpad_background.png
+* app\src\main\res\drawable\touchpad_keyboard.png
+* app\src\main\res\layout\
+* app\src\main\res\layout\activity_splash.xml
+* app\src\main\res\layout\control_activity.xml
+* app\src\main\res\layout\doc_activity.xml
+* app\src\main\res\layout\empty_separator.xml
+* app\src\main\res\layout\home_activity.xml
+* app\src\main\res\layout\hosts_dialog.xml
+* app\src\main\res\layout\item_shell_nowrap.xml
+* app\src\main\res\layout\item_shell_wrap.xml
+* app\src\main\res\layout\license_activity.xml
+* app\src\main\res\layout\login_dialog.xml
+* app\src\main\res\layout\net_interface_item.xml
+* app\src\main\res\layout\password_prompt.xml
+* app\src\main\res\layout\separator_control.xml
+* app\src\main\res\layout\tab_hots_mac.xml
+* app\src\main\res\layout\tab_hots_win.xml
+* app\src\main\res\layout\tab_settings.xml
+* app\src\main\res\layout\tab_shell.xml
+* app\src\main\res\layout\tab_touchpad.xml
+* app\src\main\res\menu\
+* app\src\main\res\menu\control.xml
+* app\src\main\res\menu\doc.xml
+* app\src\main\res\menu\license.xml
+* app\src\main\res\menu\main.xml
+* app\src\main\res\values\
+* app\src\main\res\values\attrs.xml
+* app\src\main\res\values\colors.xml
+* app\src\main\res\values\dimens.xml
+* app\src\main\res\values\strings.xml
+* app\src\main\res\values\styles.xml
+* app\src\main\resources\
+* app\src\main\resources\com\
+* app\src\main\resources\com\Localytics\
+* app\src\main\resources\com\Localytics\android\
+* app\src\main\resources\com\Localytics\android\LICENSE
+* app\src\main\resources\com\Localytics\android\android_2.17.0.version
+* build.gradle
+* default.properties
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* settings.gradle
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+GooglePlay => [com.google.android.gms:play-services:+]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\crashlytics.jar => app\libs\crashlytics.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* src\com\Localytics\android\android_2.17.0.version => app\src\main\resources\com\Localytics\android\android_2.17.0.version
+* src\com\Localytics\android\LICENSE => app\src\main\resources\com\Localytics\android\LICENSE
+* C:\Users\jmorales\Desktop\trainman\iremote\dev\iRemote.Java\src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
